@@ -1,65 +1,95 @@
-*{
-    color: white
+* {
+  color: white;
 }
 
-body{
-    background-color: black;
+body {
+  background-color: black;
 }
 
-.nav-bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 50px 0 50px;
-    box-shadow: 0px 1px 0px 0px grey;
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px 0 50px;
+  box-shadow: 0px 1px 0px 0px grey;
 }
 
-.icons{
-    display: flex;
-    justify-content: center;
-    /* background-color: pink; */
-    width: 20%
+.icons {
+  display: flex;
+  justify-content: center;
+  /* background-color: pink; */
+  width: 20%;
 }
 
-.icons-list{
-    display: flex;
-    /* background-color: green; */
+.icons-list {
+  display: flex;
+  /* background-color: green; */
 }
 
-li{
-    list-style: none;
-    margin: 0 20px 0 10px
+li {
+  list-style: none;
+  margin: 0 20px 0 10px;
 }
 
-.section-1{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-bottom: 10px;
-    box-shadow: 0px 1px 0px 0px grey;
+.section-1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-bottom: 10px;
+  box-shadow: 0px 1px 0px 0px grey;
 }
 
-.avatar{
-    margin: 20px 0 0 20px;
-    background-color: white;
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+.avatar {
+  margin: 20px 0 0 20px;
+  background-color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
 }
 
-.username{
-    display:flex;
-    flex-direction: column;
-    margin-right: 400px;
-    margin-top: 8px;
-    /* background-color: pink; */
+.username {
+  display: flex;
+  flex-direction: column;
+  margin-right: 400px;
+  margin-top: 8px;
+  /* background-color: pink; */
 }
 
-.song{
-    margin-top: -10px
+.song {
+  margin-top: -10px;
 }
 
-.dots{
-    letter-spacing: 10px;
-    font-weight: bold;
+.dots {
+  letter-spacing: 10px;
+  font-weight: bold;
+}
+
+.section-2 {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 1rem;
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.actions-left {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+  padding: 0 0.5rem;
+}
+
+.actions-right {
+  width: 75%;
+  text-align: right;
+  padding-right: 0.5rem;
+}
+
+.section-3 {
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
 }
