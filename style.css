@@ -1,0 +1,41 @@
+main {
+  text-align: center;
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  align-items: center;
+}
+
+.username {
+  margin-bottom: 0.5rem;
+}
+
+.password {
+  margin-bottom: 2rem;
+}
+
+.text-primary {
+  /* --bs-text-opacity: 1; */
+  background-color: hsl(203.58deg 93.51% 63.73%);
+  color: white;
+  padding: 0.3rem;
+  border-radius: 5px;
+}
+
+input {
+  background-color: hsl(0deg 0% 98.04%);
+  padding: 0.3rem;
+}
+
+input,
+button {
+  width: 175px;
+}
